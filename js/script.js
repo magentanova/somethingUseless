@@ -4,10 +4,10 @@ var qs = function(sel) {
 
 var projectToHtml = function(project) {
 	var outputHtml = '<div class="project">'
-	outputHtml += '<p class="appName">' + project.app + '</p>'
-	outputHtml += '<p class="student">by ' + project.name + '</p>'
+	outputHtml += '<div class="projectHeading"><p class="appName">' + project.app + '</p>'
+	outputHtml += '<p class="student">by ' + project.name + '</p></div>'
 	outputHtml += '<p class="cohort"><strong>cohort:</strong> ' + project.cohort + '</p>'
-	outputHtml += '<p class="description"><strong>description:</strong>' + project.descr + '</p>'
+	outputHtml += '<p class="description"><strong>description: </strong>' + project.descr + '</p>'
 	outputHtml += '<a href="' + project.url + '">[app url]</a>'
 	outputHtml += '<a href="' + project.src + '">[src]</a>'
 	outputHtml += '</div>'

@@ -17,26 +17,44 @@ p {
 	margin: 0;
 }
 
+.project p.student {
+	margin-bottom: 25px;
+}
+
 p.appName {
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
 }
 
+#container {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
 #header {
 	text-align: center;
 }
 
+#header p {
+	margin-bottom: 25px;
+}
+
 .project {
-	margin: 2% auto;
-	width: 75%;
+	display: inline-block;
+	margin: 10px;
+	width: 29%;
 	border: 3px solid maroon;
 	background: bisque;
 	padding: 2%;
+	height: 300px;
+	vertical-align: top;
+	text-align: left;
 }
 
 .project:first-child {
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 }
 
 .project p {
@@ -50,4 +68,16 @@ p.description {
 
 .project a:first-of-type {
 	margin-right:5px;
+}
+
+.projectHeading {
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.project {
+		display: block;
+		width: 80%;
+		margin: 2% auto;
+	}
 }
