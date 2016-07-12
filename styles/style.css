@@ -1,0 +1,53 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 64px;
+	margin-bottom: 10px;
+}
+
+p.student {
+    text-align: center;
+    margin-top: 1%;
+}
+
+p {
+	margin: 0;
+}
+
+p.appName {
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+}
+
+#header {
+	text-align: center;
+}
+
+.project {
+	margin: 2% auto;
+	width: 75%;
+	border: 3px solid maroon;
+	background: bisque;
+	padding: 2%;
+}
+
+.project:first-child {
+	margin-top: 5%;
+}
+
+.project p {
+	margin: 5px 0;
+}
+
+p.description {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.project a:first-of-type {
+	margin-right:5px;
+}
