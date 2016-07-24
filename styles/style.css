@@ -3,6 +3,17 @@
 	box-sizing: border-box;
 }
 
+body::after {
+	content: "";
+	background: url(../frostpattern.png);
+	opacity: 0.09;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
 h1 {
 	font-size: 64px;
 	margin-bottom: 10px;
@@ -15,40 +26,50 @@ p.student {
 
 p {
 	margin: 0;
+	font-weight: lighter;
 }
 
 .project p.student {
 	margin-bottom: 25px;
 }
 
-p.appName {
-    font-weight: bolder;
-    font-size: 36px;
-    text-align: center;
-}
+
 
 #container {
 	width: 95%;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
 
 #header {
 	text-align: center;
+	margin-bottom: 4%;
+}
+
+#header h1 {
+	font-size: 72px;
+	margin-top: 2.5%;
+	font-weight: normal;
+	margin-bottom: 0;
 }
 
 #header p {
-	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+#metaContainer {
+	width: 75%;
+	margin: 0 auto;
 }
 
 .project {
 	display: inline-block;
-	margin: 10px;
-	width: 29%;
-	border: 3px solid maroon;
-	background: bisque;
+	margin: 1%;
+	width: 31.3%;
+	/* border: 3px solid rgb(32, 82, 243); */
+	background: rgba(32, 82, 243,0.4);
 	padding: 2%;
-	height: 300px;
+	min-height: 300px;
 	vertical-align: top;
 	text-align: left;
 }
@@ -58,12 +79,23 @@ p.appName {
 }
 
 .project p {
+	font-weight: lighter;
 	margin: 5px 0;
 }
 
-p.description {
+.project p.appName {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.projet p.description {
 	display: inline-block;
 	margin-right: 10px;
+}
+
+.project strong {
+	font-weight: normal;
 }
 
 .project a:first-of-type {
@@ -79,5 +111,15 @@ p.description {
 		display: block;
 		width: 80%;
 		margin: 2% auto;
+	}
+	#header h1 {
+		font-size: 54px;
+	}
+	#header p {
+		font-size: 15px;
+	}
+
+	.project p {
+		font-size: 15px;
 	}
 }
