@@ -50,5 +50,16 @@ window.projects = [
 		url: 'http://ariquinones.github.io/uselessApp/',
 		src: 'http://github.com/uselessApp',
 		descr: 'an experimentation animating particles on an html5 canvas. Use Hydro Pump!'
+	},	
+
+	{
+		name: "ari quinones",
+		cohort: "feb 2016",
+		app: "axe dunk",
+		url: 'http://txsadamwest.github.io/axeDunk/',
+		src: 'https://github.com/TxsAdamWest/axeDunk',
+		descr: 'a game demo showing a basic combat simulator for a future game project using HTML/CSS/JS + jQuery. turn on your sound :]'
 	}
+
+	
 ]
