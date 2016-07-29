@@ -27,6 +27,7 @@ p.student {
 p {
 	margin: 0;
 	font-weight: lighter;
+	line-height: 1.5;
 }
 
 .project p.student {

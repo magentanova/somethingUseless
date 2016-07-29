@@ -1,4 +1,14 @@
 window.projects = [
+
+	{
+		name: "adam bergen",
+		cohort: "may 2016",
+		app: "etch your sketch",
+		url: 'https://etchyoursketch.herokuapp.com/',
+		src: 'https://github.com/abergen84/etchYourSketch',
+		descr: 'the classic of visual artistry, rendered here using react js'
+	},
+
 	{
 		name: "nathaniel flores",
 		cohort: "may 2016",
@@ -18,15 +28,6 @@ window.projects = [
 	},
 
 	{
-		name: "adam bergen",
-		cohort: "may 2016",
-		app: "etch your sketch",
-		url: 'https://etchyoursketch.herokuapp.com/',
-		src: 'https://github.com/abergen84/etchYourSketch',
-		descr: 'the classic of visual artistry, rendered here using react js'
-	},
-
-	{
 		name: "emre cullu",
 		cohort: "may 2016",
 		app: "match me if you can",
@@ -34,6 +35,7 @@ window.projects = [
 		src: "https://github.com/ecullu/memoryGame",
 		descr: "this dazzling memory game will not only entertain you but also help to prevent alzheimer's."
 	},
+
 	{
 		name: "jason poland",
 		cohort: "feb 2016",
@@ -59,7 +61,5 @@ window.projects = [
 		url: 'http://txsadamwest.github.io/axeDunk/',
 		src: 'https://github.com/TxsAdamWest/axeDunk',
 		descr: 'a game demo showing a basic combat simulator for a future game project using HTML/CSS/JS + jQuery. turn on your sound :]'
-	}
-
-	
+	}	
 ]
