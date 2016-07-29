@@ -55,7 +55,7 @@ window.projects = [
 	},	
 
 	{
-		name: "ari quinones",
+		name: "adan huerta",
 		cohort: "feb 2016",
 		app: "axe dunk",
 		url: 'http://txsadamwest.github.io/axeDunk/',
