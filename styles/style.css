@@ -3,7 +3,8 @@
 	box-sizing: border-box;
 }
 
-body::after {
+body::before {
+	z-index: -1;
 	content: "";
 	background: url(../frostpattern.png);
 	opacity: 0.09;
